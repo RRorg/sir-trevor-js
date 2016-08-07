@@ -316,6 +316,8 @@
           'upload_error': "There was a problem with your upload",
           'fullwidth': "Page width",
           'bodywidth': "Article width",
+          'halfwidthleft': "Half width, left",
+          'halfwidthright': "Half width, right",
           'default': "Small"
         },
         image: {
@@ -423,6 +425,8 @@
           'upload_error': "es gab ein problem beim hochladen",
           'fullwidth': "Seitenbreite",
           'bodywidth': "Artikelbreite",
+          'halfwidthleft': "Halbe Breite, links",
+          'halfwidthright': "Halbe Breite, rechts",
           'default': "Kleine"
         },
         image: {
@@ -3258,7 +3262,9 @@
     styles: [
       { name: i18n.t('blocks:extended_image:default'), value: 'default', className: 'default' },
       { name: i18n.t('blocks:extended_image:bodywidth'), value: 'bodywidth', className: 'bodywidth' },
-      { name: i18n.t('blocks:extended_image:fullwidth'), value: 'fullwidth', className: 'fullwidth' }
+      { name: i18n.t('blocks:extended_image:fullwidth'), value: 'fullwidth', className: 'fullwidth' },
+      { name: i18n.t('blocks:extended_image:halfwidthleft'), value: 'halfwidthleft', className: 'halfwidthleft' },
+      { name: i18n.t('blocks:extended_image:halfwidthright'), value: 'halfwidthright', className: 'halfwidthright' }
     ],
   
     icon_name: 'image',

@@ -14,7 +14,9 @@ SirTrevor.Blocks.ExtendedImage = SirTrevor.Blocks.Image.extend({
   styles: [
     { name: i18n.t('blocks:extended_image:default'), value: 'default', className: 'default' },
     { name: i18n.t('blocks:extended_image:bodywidth'), value: 'bodywidth', className: 'bodywidth' },
-    { name: i18n.t('blocks:extended_image:fullwidth'), value: 'fullwidth', className: 'fullwidth' }
+    { name: i18n.t('blocks:extended_image:fullwidth'), value: 'fullwidth', className: 'fullwidth' },
+    { name: i18n.t('blocks:extended_image:halfwidthleft'), value: 'halfwidthleft', className: 'halfwidthleft' },
+    { name: i18n.t('blocks:extended_image:halfwidthright'), value: 'halfwidthright', className: 'halfwidthright' }
   ],
 
   icon_name: 'image',

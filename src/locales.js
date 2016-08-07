@@ -54,6 +54,8 @@ SirTrevor.Locales = {
         'upload_error': "There was a problem with your upload",
         'fullwidth': "Page width",
         'bodywidth': "Article width",
+        'halfwidthleft': "Half width, left",
+        'halfwidthright': "Half width, right",
         'default': "Small"
       },
       image: {
@@ -161,6 +163,8 @@ SirTrevor.Locales = {
         'upload_error': "es gab ein problem beim hochladen",
         'fullwidth': "Seitenbreite",
         'bodywidth': "Artikelbreite",
+        'halfwidthleft': "Halbe Breite, links",
+        'halfwidthright': "Halbe Breite, rechts",
         'default': "Kleine"
       },
       image: {
